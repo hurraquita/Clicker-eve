@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion JS</title>
+    <style>
+      #cuadro {
+        background-color: blue;
+        color: white;
+        font-size: x-large;
+      }
+    </style>
+</head>
+<body>
+ <h1>Hola, Bienvenido al Clicker de Eevee </h1>
+  
+  <div style="display: flex; justify-content: center;">
+    <img style="width: 200px;" src="assets/kindpng_1024389.png" onclick="juego()">
+  </div>
+
+  <div style="display: flex; justify-content: center; font-size: x-large; margin-top: 20px;">
+    <div>Clicks:</div>
+    <div id="resultadoDisplay">0</div>
+  </div>
+  <div style="display: flex; justify-content: center; margin-top: 20px;">
+    <button onclick="mejorarclikcs()">Mejorar x10</button>
+</div>
+
+  <script src="code.js"></script>  
+</body>
+</html>
+
